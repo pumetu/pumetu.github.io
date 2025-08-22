@@ -1,0 +1,19 @@
+baseURL = "https://pumetu.github.io"
+languageCode = "en-us"
+enableEmoji = true
+theme = "avicenna"
+
+title = "Pume Tuchinda"
+
+# number of posts to show on the blog page
+pagination.pagerSize = 10
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
+
+[params]
+# it is used for the copy-right section of your page
+name = "Pume Tuchinda"
