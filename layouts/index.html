@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <main class="container">
+
+    {{/* Intro block from config */}}
+    {{ with .Site.Params.homeIntroTitle }}
+      <h1>{{ . }}</h1>
+    {{ end }}
+    {{ with .Site.Params.homeIntroContent }}
+      <div class="intro">{{ . | markdownify }}</div>
+    {{ end }}
+
+    {{/* Socials (simple render using your params) */}}
+    {{ with .Site.Params.social }}
+      <p>
+        {{ range . }}
+          <a href="{{ .url }}" style="margin-right: .75rem;">{{ .name }}</a>
+        {{ end }}
+      </p>
+    {{ end }}
+
+    {{/* Now inject your single page */}}
+    {{ with .Site.GetPage "/publications" }}
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    {{ end }}
+
+  </main>
+{{ end }}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Pume Tuchinda</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Pume Tuchinda</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;p&gt;(* denotes equal contribution)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2508.15239v1&#34;&gt;WangchanThaiInstruct: An instruction-following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai&lt;/a&gt;&lt;br&gt;&#xA;Peerat Limkonchotiwat*, &lt;strong&gt;Pume Tuchinda&lt;/strong&gt;*, Lalita Lowphansirikul, Surapon Nonesung, Panuthep Tasawong, Alham Fikri Aji, Can Udomcharoenchaikit, Sarana Nutanong&lt;br&gt;&#xA;Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aclanthology.org/2025.findings-acl.817.pdf&#34;&gt;Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments&#xA;&lt;/a&gt;&lt;br&gt;&#xA;Patomporn Payoungkhamdee, &lt;strong&gt;Pume Tuchinda&lt;/strong&gt;, Jinheon Baek, Samuel Cahyawijaya, Can Udomcharoenchaikit, Potsawee Manakul, Peerat Limkonchotiwat, Ekapol Chuangsuwanich, Sarana Nutanong&#xA;Findings of the Association for Computational Linguistics: ACL 2025&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,3 +1,87 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://pumetu.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pume Tuchinda'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi! 👋'
+homeIntroContent = """
+I am currently a Research Assistant at VISTEC (NRL Lab) working on Post Training for LLMs and Vision Language Models.
+
+Current Interests:
+- LLM Reasoning
+- Vision Language Models
+- Vision Representation Learning
+"""
+
+homeCollectionTitle = 'Publications'
+homeCollection = 'publications'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "x"
+url = "https://x.com/pumetuchinda"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/pumetu"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/pumetuchinda/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "publications"
+url = "/publications"
+
+[[params.menu]]
+name = "blogs"
+url = "/blogs"
+
+[[params.menu]]
+name = "cv"
+url = "/cv.pdf"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
